@@ -1,13 +1,9 @@
 export default defineNuxtConfig({
-  // https://github.com/nuxt-themes/docus
+  // https://github.com/Ebkarlibya/docs_for_noobs
   extends: ['@nuxt-themes/docus'],
-  
   devtools: { enabled: true },
-
   modules: [
-    // Remove it if you don't use Plausible analytics
-    // https://github.com/nuxt-modules/plausible
-    // '@nuxtjs/plausible'
+
   ],
   ssr: false,
   compatibilityDate: '2024-10-24'
