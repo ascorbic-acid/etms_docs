@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  // https://github.com/Ebkarlibya/docs_for_noobs
+  // https://github.com/ascorbic-acid/etms_docs
   extends: ['@nuxt-themes/docus'],
   devtools: { enabled: true },
   modules: [

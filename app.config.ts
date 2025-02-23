@@ -1,4 +1,4 @@
-// https://github.com/nuxt-themes/docus/blob/main/nuxt.schema.ts
+// https://github.com/ascorbic-acid/etms_docs
 export default defineAppConfig({
   docus: {
     title: 'Ebkar Technology Knowledge Base Documentations',
@@ -6,7 +6,7 @@ export default defineAppConfig({
     image: 'https://user-images.githubusercontent.com/904724/185365452-87b7ca7b-6030-4813-a2db-5e65c785bf88.png',
     socials: {
       twitter: 'nuxt_js',
-      github: 'Ebkarlibya/docs_for_noobs',
+      github: 'ascorbic-acid/etms_docs',
       nuxt: {
         label: 'Nuxt',
         icon: 'simple-icons:nuxtdotjs',
@@ -14,10 +14,10 @@ export default defineAppConfig({
       }
     },
     github: {
-      dir: '.starters/default/content',
+      dir: 'ascorbic-acid/etms_docs',
       branch: 'main',
-      repo: 'docus',
-      owner: 'nuxt-themes',
+      repo: 'etms_docs',
+      owner: 'ascorbic-acid',
       edit: true
     },
     aside: {
@@ -34,6 +34,11 @@ export default defineAppConfig({
       showLinkIcon: true,
       exclude: [],
       fluid: true
+    },
+    footer: {
+      credits: {
+        text: "Nuxt + Docus is Love"
+      }
     }
   }
 })
