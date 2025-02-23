@@ -14,7 +14,7 @@ export default defineAppConfig({
       }
     },
     github: {
-      dir: 'ascorbic-acid/etms_docs',
+      dir: 'content',
       branch: 'main',
       repo: 'etms_docs',
       owner: 'ascorbic-acid',
