@@ -5,6 +5,11 @@ export default defineNuxtConfig({
   modules: [
 
   ],
+  mdc: {
+    highlight: {
+      langs: ["python", "javascript", "bash"]
+    }
+  },
   ssr: false,
   compatibilityDate: '2024-10-24'
 })
